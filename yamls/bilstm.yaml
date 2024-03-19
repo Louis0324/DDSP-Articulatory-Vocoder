@@ -1,4 +1,4 @@
-device : 'cuda:6'
+device : 'cuda:0'
 # Bi-LSTM, 2 Resblocks, no jump noise
 
 # model hyperparameters
@@ -18,9 +18,9 @@ comment : 'bilstm'
 batch_size : 32
 
 # folder names
-wav_dir: "d/data/all_data/ddsp/mngu0/wav"
-ema_dir: "/data/all_data/ddsp/mngu0/nema_npy"
-pitch_dir : "/data/all_data/ddsp/mngu0/pitch_tiny"
-loudness_dir : "/data/all_data/ddsp/mngu0/loudness"
-data_split_dir: "/data/all_data/ddsp/mngu0"
-saved_models_dir: "/data/drake/saved_models/ddsp_vocoder"
+wav_dir: _
+ema_dir: _
+pitch_dir : _
+loudness_dir : _
+data_split_dir: _
+saved_models_dir: _
