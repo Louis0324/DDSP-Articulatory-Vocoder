@@ -1,0 +1,26 @@
+device : 'cuda:6'
+# Bi-LSTM, 2 Resblocks, no jump noise
+
+# model hyperparameters
+hidden_dim : 256
+nharmonics : 50
+nbands : 65
+fs : 16000
+framesize : 80
+attenuate : 0.02
+
+# training parameters
+lr : 1.0e-3
+milestones : [2400, 4800]
+gamma : 0.3
+total_epochs : 6400
+comment : 'bilstm'
+batch_size : 32
+
+# folder names
+wav_dir: "d/data/all_data/ddsp/mngu0/wav"
+ema_dir: "/data/all_data/ddsp/mngu0/nema_npy"
+pitch_dir : "/data/all_data/ddsp/mngu0/pitch_tiny"
+loudness_dir : "/data/all_data/ddsp/mngu0/loudness"
+data_split_dir: "/data/all_data/ddsp/mngu0"
+saved_models_dir: "/data/drake/saved_models/ddsp_vocoder"
