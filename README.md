@@ -14,7 +14,7 @@ DDSP code is based on https://github.com/sweetcocoa/ddsp-pytorch and https://int
 
 ## Training
 1. Edit the config yaml, which defines hyperparameters, training parameters, and file directories.
-2. Run `python vocoder/main.py` from the source directory to train. 
+2. Run `python vocoder/main.py -config bilstm.yaml` from the source directory to train. 
 
 ## Test
 `vocoder/test.ipynb` contains code to produce waveforms using the DDSP articulator vocodoer.

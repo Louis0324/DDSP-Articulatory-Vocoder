@@ -9,6 +9,7 @@ from vocoder import Vocoder
 from dataset import MNGU0Dataset, train_collate_fn, test_and_validation_collate_fn
 from train import trainer_vocoder
 from losses import MultiScaleSpectralLoss
+import argparse
 
 
 def calc_nparam(model):
@@ -27,7 +28,11 @@ if __name__ == "__main__":
     random.seed(324)
 
     # load yaml config
-    yaml_name = "bilstm.yaml"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-c", "--config", help="config yaml")
+    args = parser.parse_args()
+
+    yaml_name = args.config
     with open("yamls/" + yaml_name, "r") as stream:
         try:
             config = yaml.safe_load(stream)
