@@ -3,7 +3,7 @@ Official implementation of the paper:
 
 **Fast, High-Quality and Parameter-Efficient Articulatory Synthesis Using Differentiable DSP (SLT 2024)** 
 
-[[paper]](https://arxiv.org/)[[demo]](https://louis0324.github.io/DDSP-Articulatory-Vocoder/)
+[[paper]](https://arxiv.org/)[[demo]](https://ddsp-vocoder.notion.site/Fast-High-Quality-and-Parameter-Efficient-Articulatory-Synthesis-Using-Differentiable-DSP-b2297b5c67834f5fb7c302b55f8a6df2)
 
 DDSP code is based on https://github.com/sweetcocoa/ddsp-pytorch and https://intro2ddsp.github.io/intro.html
 
