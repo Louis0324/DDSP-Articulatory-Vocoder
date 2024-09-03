@@ -1,8 +1,8 @@
-<!-- ---
+---
 title: "Fast, High-Quality and Parameter-Efficient Articulatory Synthesis Using Differentiable DSP"
 author : "Yisi Liu, Bohan Yu, Drake Lin, Peter Wu, Cheol Jun Cho, Gopala Krishna Anumanchipalli"
 description: ""
---- -->
+---
 
 
 ### Yisi Liu, Bohan Yu, Drake Lin, Peter Wu, Cheol Jun Cho, Gopala K. Anumanchipalli
@@ -24,7 +24,7 @@ The paper will soon be available on [arXiv](https://arxiv.org/).
 ## Models with limited data
 
 |     1 minute       |   Sample 1  | Sample 2 |
-|----------------|-------------|----------|
+|--------------------|-------------|----------|
 | HiFi-CAR |<audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/hificarr1min1.wav" type="audio/pcm"></audio>| <audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/hificarr1min2.wav" type="audio/pcm"></audio>| 
 | DDSP BiGRU |<audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/bigru1min1.wav" type="audio/pcm"></audio>| <audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/bigru1min2.wav" type="audio/pcm"></audio>|
 | DDSP BiLSTM |<audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/bilstm1min1.wav" type="audio/pcm"></audio>| <audio controls="" preload="auto" src="https://raw.githubusercontent.com/Louis0324/DDSP-Articulatory-Vocoder/main/samples/bilstm1min2.wav" type="audio/pcm"></audio>| 
