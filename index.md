@@ -1,3 +1,10 @@
+---
+title: "Fast, High-Quality and Parameter-Efficient Articulatory Synthesis Using Differentiable DSP"
+author : "Yisi Liu, Bohan Yu, Drake Lin, Peter Wu, Cheol Jun Cho, Gopala Krishna Anumanchipalli"
+description: ""
+---
+
+
 ### Yisi Liu, Bohan Yu, Drake Lin, Peter Wu, Cheol Jun Cho, Gopala K. Anumanchipalli
 
 The paper will soon be available on [arXiv](https://arxiv.org/).
