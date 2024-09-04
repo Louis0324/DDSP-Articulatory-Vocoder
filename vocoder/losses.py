@@ -42,16 +42,3 @@ class MultiScaleSpectralLoss(nn.Module):
             out += loss(x_hat, x)
         return out
 
-
-if __name__ == "__main__":
-    B = 4
-    t = 16000
-    x_hat = torch.randn(B, t).to("cuda")
-    x_hat.requires_grad_(True)
-    x = torch.randn(B, t).to("cuda")
-
-    criterion = MultiScaleSpectralLoss().to("cuda")
-
-    loss = criterion(x_hat, x)
-
-    print(loss, loss.requires_grad)
