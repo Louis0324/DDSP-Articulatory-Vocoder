@@ -21,3 +21,15 @@ DDSP code is based on https://github.com/sweetcocoa/ddsp-pytorch and https://int
 1. Edit the config yaml, which defines hyperparameters, training parameters, and file directories.
 2. Run `python vocoder/main.py --config yamls/config.yaml` from the source directory to train. 
 
+## Citation
+If you find this repository useful, please cite our work with the following BibTex entries:
+```bibtex
+@misc{louis24ddsp,
+    title={Fast, High-Quality and Parameter-Efficient Articulatory Synthesis using Differentiable DSP},
+    author={Yisi Liu, Bohan Yu, Drake Lin, Peter Wu, Cheol Jun Cho, Gopala Krishna Anumanchipalli},
+    year={2024},
+    eprint={2409.02451},
+    archivePrefix={arXiv},
+    primaryClass={eess.AS}
+}
+```
